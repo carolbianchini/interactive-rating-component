@@ -16,7 +16,7 @@ main {
     width: 20%;
     height: 250px;
     text-align: left;
-    padding: 50px 15px;
+    padding: 30px 30px;
     border-radius: 12px;
     font-size: 13px;
 }
@@ -27,4 +27,12 @@ main {
 
 p {
     color: rgb(120, 134, 155);
+    font-weight:600;
+}
+
+.estrela {
+    background: rgb(54, 62, 73);
+    padding: 10px;
+    border-radius: 100px;
+    width: 13px;
 }

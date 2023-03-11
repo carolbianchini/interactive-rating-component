@@ -11,17 +11,19 @@ main {
     width: 100%;
     height: 622px;
 }
-.conteudo-principal {
+.conteudo-principal, .conteudo-agradecimento{
     background: rgb(37, 45, 55);
-    width: 20%;
+    width: 22%;
     height: 250px;
-    text-align: left;
-    padding: 30px 30px;
+    padding: 40px 50px 60px;
     border-radius: 12px;
     font-size: 13px;
 }
 
-.titulo {
+.conteudo-principal {
+    text-align: left;
+}
+.titulo, h2 {
     color: white;
 }
 
@@ -32,7 +34,41 @@ p {
 
 .estrela {
     background: rgb(54, 62, 73);
-    padding: 10px;
+    padding: 15px;
     border-radius: 100px;
     width: 13px;
+}
+
+.avaliacao {
+text-align: center;
+}
+
+.botao-avaliar {
+    margin: 20px 10px 25px;
+    background: rgb(54, 62, 73);
+    border: none;
+    padding: 12px 15px;
+    border-radius: 100px;
+    color: rgb(120, 134, 155);
+    font-size: 11px;
+}
+
+span {
+    background: rgb(54, 62, 73);
+    padding: 5px;
+}
+
+.enviar {
+    text-align: center;
+    background: rgb(251, 116, 19);
+    border: none;
+    padding: 10px 109px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 15px;
+}
+
+.conteudo-agradecimento {
+    text-align: center;
+    
 }

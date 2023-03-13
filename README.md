@@ -1,13 +1,58 @@
-Interactive rating component
+<h1>Solução de Componentes de Classificação Interativa</h1>
+
+## Índice
+
+- [Descrição do Projeto](#descrição-do-projeto)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [O Que Aprendi](#o-que-aprendi)
+- [Desenvolvimento Contínuo](#desenvolvimento-contínuo)
+- [Recursos Úteis](#recursos-úteis)
+- [Autor](#autor)
+
+## Descrição do Projeto 
+
+O projeto trata-se de um desafio proposto pelo Front-End Mentor. O componente de classificação interativa é responsável por solicitar uma avaliação ao usuário e lhe dar um feed-back sobre sua classificação. 
+
+![Página Inicial](https://user-images.githubusercontent.com/122060348/224580130-7bea302c-4eed-4a0e-8a4c-14107aa47813.png)
+![Página Agradecimento](https://user-images.githubusercontent.com/122060348/224582984-38a70ba6-fc00-4f04-b05f-7ed7729cbfca.png)
 
 
-## Building your project
+## Tecnologias Utilizadas
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+`HTML`
+`CSS`
+`Javascript`
+`Flexbox`
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+### O Que Aprendi
+
+Ao realizar este projeto aprendi um pouco mais de como utilizar o Flexbox e também a desenvolver um design responsivo. Aprendi mais de como manipular o DOM no JS. 
+
+Segue exemplo, trechos dos códigos abaixo: 
+
+CSS
+```css
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+```
+JS
+```js
+  submit.addEventListener("click", () => {
+    card2.classList.remove("hidden")
+    card1.style.display = "none"
+ })
+}
+```
+### Desenvolvimento Contínuo
+
+Para próximos projetos irei trabalhar mais em JS e continuar aprendendo sobre Flexbox e CSS Grid. 
+
+### Recursos Úteis
+
+- [Artigo Centralizar Itens](https://demenezes.dev/posts/centralizar-em-css/) - Este incrível e didático artigo me ajudou muito a centralizar meus ítens na página, apresentando diversas maneiras de manipular ítens no CSS. Recomendo muito para quem está aprendendo esses conceitos. 
+
+## Autor
+
+- Linkedin - [Ana Carolina Bianchini](https://www.linkedin.com/in/ana-carolina-bianchini-desenvolvedora-front-end/)

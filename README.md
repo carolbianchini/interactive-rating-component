@@ -11,7 +11,9 @@
 
 ## Descrição do Projeto 
 
-O projeto trata-se de um desafio proposto pelo Front-End Mentor. O componente de classificação interativa é responsável por solicitar uma avaliação ao usuário e lhe dar um feedback sobre sua classificação. 
+O projeto trata-se de um desafio proposto pelo Front-End Mentor. O componente de classificação interativa é responsável por solicitar uma avaliação ao usuário e lhe dar um feedback sobre sua classificação.
+
+URL: https://carolbianchini.github.io/interactive-rating-component/ 
 
 ![Página Inicial](https://user-images.githubusercontent.com/122060348/224580130-7bea302c-4eed-4a0e-8a4c-14107aa47813.png)
 ![Página Agradecimento](https://user-images.githubusercontent.com/122060348/224582984-38a70ba6-fc00-4f04-b05f-7ed7729cbfca.png)
